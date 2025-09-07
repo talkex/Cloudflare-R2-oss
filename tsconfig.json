@@ -1,11 +1,17 @@
 {
   "compilerOptions": {
-    "target": "ES2021",
-    "module": "CommonJS",
-    "lib": ["ES2021"],
-    "types": ["@cloudflare/workers-types"],
-    "paths": {
-      "@/*": ["./*"]
-    }
-  }
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": ["ESNext", "DOM"],
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "include": ["api/**/*.ts"],
+  "exclude": ["node_modules"]
 }
