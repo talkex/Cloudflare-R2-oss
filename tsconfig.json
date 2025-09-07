@@ -10,17 +10,12 @@
     "outDir": "dist",
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "isolatedModules": true
-  },
-  "include": ["api/**/*.ts"],
-  "exclude": ["node_modules"]
-  {
-  "compilerOptions": {
+    "isolatedModules": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["api/*"]
     }
-  }
-}
-
+  },
+  "include": ["api/**/*.ts"],
+  "exclude": ["node_modules"]
 }
