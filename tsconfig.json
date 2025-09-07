@@ -14,4 +14,13 @@
   },
   "include": ["api/**/*.ts"],
   "exclude": ["node_modules"]
+  {
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["api/*"]
+    }
+  }
+}
+
 }
